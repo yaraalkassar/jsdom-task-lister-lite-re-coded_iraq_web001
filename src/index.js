@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let list = document.getElementById("tasks");
     let listItem = document.createElement("li");
     const taskName = document.getElementById("new-task-description").value;
-    listItem.innerHTML = taskName
+    listItem.innerHTML = taskName;
     list.appendChild(listItem);
   });
 });
