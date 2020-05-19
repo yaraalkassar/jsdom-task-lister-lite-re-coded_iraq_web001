@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
   let btn = document.getElementById('btn'); //get button
-  btn.addEventListener('click', addToList);
+  btn.addEventListener('submit', addToList);
   function addToList() {
       let taskName = document.getElementById('new-task-description').value;
       let list = document.getElementById('tasks');
