@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.getElementById("submit-button").addEventListener('click', function(e){
+  document.getElementById("btn").addEventListener('click', function(e){
     e.preventDefault();
     let list = document.getElementById("tasks");
     let listItem = document.createElement("li");
