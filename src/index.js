@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   let btn = document.getElementById('btn'); //get button
-  btn.addEventListener('submit', function(event
-  {      event.preventDefault();
+  btn.addEventListener('click', function(e)
+  {      e.preventDefault();
       let taskName = document.getElementById('new-task-description').value;
       let list = document.getElementById('tasks');
       let listItem = document.createElement('li');
