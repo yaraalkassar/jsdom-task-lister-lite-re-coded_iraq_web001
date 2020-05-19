@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hiddenElemetns= document.getElementsByClassName('hide');
       for(let i=0; i<hiddenElemetns.length; i++)
     {
-        hiddenElemetns[i].style.display = "block"; 
+        hiddenElemetns[i].style.display = "block";
     }
       let taskName = document.getElementById('task').value;
       let list = document.getElementById('list');
@@ -27,5 +27,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-  
+
 });
