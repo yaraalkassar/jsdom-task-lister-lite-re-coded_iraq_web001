@@ -11,16 +11,4 @@ document.addEventListener("DOMContentLoaded", () => {
       listItem.innerHTML = taskName;
       list.appendChild(listItem);
   });
-
-
-
-
-
-
-
-
-
-
-
-
 });
